@@ -1,0 +1,8 @@
+# Enviroment files
+.env
+
+# Node Modules folder
+node_modules
+
+# Compiled code
+dist
