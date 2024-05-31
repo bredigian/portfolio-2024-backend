@@ -15,3 +15,5 @@ app.listen(PORT, () =>
     `Gianluca Bredice Vivarelli Portoflio's Backend running on PORT ${PORT}`
   )
 )
+
+export default app

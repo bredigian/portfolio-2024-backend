@@ -2,10 +2,12 @@
   "name": "portfolio-2024-backend",
   "version": "1.0.0",
   "description": "",
+  "main": "src/index.ts",
   "scripts": {
-    "dev": "pnpm exec nodemon -r dotenv/config ./src/index.ts",
+    "start": "ts-node src/index.ts",
     "build": "tsc",
-    "start": "node dist/index.js"
+    "dev": "pnpm exec nodemon ./src/index.ts",
+    "vercel-build": "echo hello"
   },
   "keywords": [],
   "author": "",
